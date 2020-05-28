@@ -15,7 +15,7 @@ include("inc/db.php");
   <br>
   <div class="container">
     <form method="post" style="background: #fff;padding: 20px; width: 400px;margin: auto;border-radius:10px;box-shadow: 0px 0px 5px 0px #000;">
-      <label for="vars">Text/Hash: </label> <input type="text" name="vars" length="128" required class="form-control"> <br>
+      <label for="vars">Text/Hash: </label> <input type="text" name="vars" maxlength="32" required class="form-control"> <br>
       <input type="submit" name="encode" value="Encode" class="btn btn-primary">
       <input type="submit" name="decode" value="Decode" class="btn btn-danger">
       <input type="reset" name="reset" value="Reset" class="btn btn-secondary">
