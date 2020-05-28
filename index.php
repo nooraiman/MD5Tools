@@ -5,8 +5,8 @@ include("inc/db.php");
 <html>
 <head>
   <title>MD5 Tools</title>
-  <script type="text/javascript" src="/v3/ruxitagentjs_ICA2SVfghjqrux_10191200518082328.js" data-dtconfig="rid=RID_1762657397|rpid=216169431|domain=uitm.edu.my|reportUrl=/v3/rb_bed8d9ce-f533-445a-b185-0949b89571e4|app=17d402e2bb72c628|ssc=1|featureHash=ICA2SVfghjqrux|rdnt=1|uxrgce=1|bp=3|cuc=xv5a9vn8|srms=1,0,,,|uxrgcm=100,25,300,3;100,25,300,3|dpvc=1|md=2=a#content ^rb div.navbar.hidden-print.navbar-default.main ^rb div.user-action.pull-left.menu-right-hidden-xs.menu-left-hidden-xs.border-left ^rb div ^rb a ^rb span ^rb span|bismepl=2000|lastModification=1590630431386|dtVersion=10191200518082328|tp=500,50,0,1|uxdcw=1500|agentUri=/v3/ruxitagentjs_ICA2SVfghjqrux_10191200518082328.js"></script><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!--
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <!--
     Coded by Noor Aiman.
     Templates: Bootstrap
       -->
