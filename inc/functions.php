@@ -5,6 +5,7 @@ function encode()
 {
   global $connection;
   $text = $_POST['vars'];
+  $text = mysqli_real_escape_string($connection, $text);
   $encoded = md5($text);
   $query = mysqli_query($connection, "SELECT * FROM `md5` WHERE hash='$encoded' and text='$text' " );
   $checkrows=mysqli_num_rows($query);
@@ -38,6 +39,7 @@ function decode()
 {
   global $connection;
   $hash = $_POST['vars'];
+  $hash = mysqli_real_escape_string($connection, $hash);
   $hashLength = strlen($hash);  // Get the character length
 
   if($hashLength == 32)
