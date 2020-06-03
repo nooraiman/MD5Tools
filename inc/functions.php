@@ -56,7 +56,7 @@ function decode()
         }
       }
       else {
-          echo "Hash: <b>" . $rows['hash'] . "</b><br>";
+          echo "Hash: <b>" . $hash . "</b><br>";
           echo "Text: <b>Not Found</b><br>";
       }
   }
